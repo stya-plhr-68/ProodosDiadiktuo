@@ -1,0 +1,53 @@
+body{
+	margin:0;
+}
+.image{
+	width: 450px;
+    height: 450px;
+}
+.img1{
+	border: 3px solid #2eb8b8;
+	margin:50px;
+	border-radius: 50%;
+	
+	width:500px;
+    height: 500px;
+    overflow: auto;
+}
+.center {
+    text-align:center;
+    display:block;
+}
+.text{
+	
+	color:#2eb8b8;
+	text-align:center;
+}
+
+ul.sidenav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: #d9d9d9;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+ul.sidenav li a {
+	border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	width: 25px;
+    
+}
+ 
+
+
+
