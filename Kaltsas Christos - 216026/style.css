@@ -1,0 +1,62 @@
+.myTableDiv {
+	background-color: #e0e0e0;
+	float: left;
+	height: 100%;
+	width: 400px;
+	padding: 0px;
+	margin: 0px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+.mItemButton {			
+	display: inline-block;
+	padding: 15px;
+	background-color: #edeeef;	 	
+	width: 300px;	
+	color: green;		
+	text-align: center;
+	font-size: 1.5em;
+}
+
+ul {
+	float: left;	
+	vertical-align: middle;
+}
+.MyImageDiv {
+	position: absolute;
+    top: 7%;
+    left: 40%;    
+	width: 20%; 
+	max-height: none;
+	
+	border: 5px solid green;
+	border-radius: 48%;
+	text-align: center;	
+	height: 700px;
+	width: 700px;
+	
+	
+	
+	
+}
+.MyImage {
+	 margin: 1em 0;
+	 vertical-align: center;	
+	 padding: 100px;
+	 height: 520px;
+	 width: 400px;
+	 max-height: none;
+	 max-width: none;
+	 min-height: none;
+	 min-width: none
+}
+
+.STYA {
+	color: green;
+	position: absolute;
+	top: 80%;
+    left: 30%; 
+	font-size: 4em;
+}
