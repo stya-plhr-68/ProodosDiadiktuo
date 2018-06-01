@@ -1,0 +1,45 @@
+#sidebar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: lightgray;
+	width: 200px;
+	height: 100vh;
+}
+
+#mainpanel {
+	position: absolute;
+	top: 0;
+	left: 200px;
+	width: calc(100% - 200px);
+	height: 100vh;
+}
+
+#inner {
+	margin: 0 auto;
+	text-align: center;
+	color: darkcyan;
+}
+
+#styalogowrapper {
+	width: 420px;
+	height: 420px;
+	box-sizing: content-box;
+	border: 5px solid darkcyan;
+	border-radius: 230px;
+	overflow: hidden;
+	margin: 50px auto;
+}
+
+#styalogo {
+	width: 300px;
+	height: 360px;
+	margin: 30px;
+}
+
+.sidebtn {
+	width: calc(100% - 20px);
+	height: 40px;
+	color: darkgreen;
+	margin: 10px;
+}
