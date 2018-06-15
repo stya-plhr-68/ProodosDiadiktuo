@@ -1,0 +1,77 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+
+
+#flexMiddle {
+	flex: 1000 0 0;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	flex-direction:column;
+}
+
+
+.allFlexboxes {
+	background-color: white;
+}
+
+.card {
+	width: 150px;
+	height: 200px;
+	border: 1px solid lightgray;
+	border-radius: 10px;
+	display: inline-block;
+	margin: 3px 3px;
+	padding: 10px;
+	box-sizing: border-box;
+	text-align: left;
+	flex-direction:column;
+	background-color: lightgray;
+	border-color: darkgray;
+	display: flex;
+	flex-direction: column;
+	width:30vh;
+}
+
+.lg{
+	width: 250px;
+	height: 100px;
+}
+
+#flexLeft {
+	flex-basis: 333px;
+	flex-direction:column;
+}
+
+.md{
+	width: 200px;
+	height:90;
+}
+
+#flexRight {
+	flex-basis: 170px;
+	flex-direction:column;
+}
+
+.sm{
+	width: 100px;
+	height:80px;
+}
+
+.label {
+	color: gray;
+}
+
+#flexRight .label {
+	color: PaleVioletRed;
+}
+
+.value {
+	color: darkgreen;
+	padding: 3px 3px 3px 10px;
+}
