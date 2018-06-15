@@ -1,0 +1,75 @@
+/* Right side of the screen */
+.rightContainer {
+	/* Position - Display */
+	display: block;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	/* Size and colors */
+	height: 100vh;
+	width: 200px;
+	margin: 0;
+	padding: 0;
+	background-color: #c8cbd1;
+}
+/* Left side of the screen */
+.leftContainer {
+	/* Position - Display */
+	display: block;
+	position: absolute;
+	top: 0%;
+	right: 0%;
+	/* Size and colors */
+	height: 100vh;
+	width: 200px;
+	margin: 0;
+	padding: 0;
+	background-color: #c8cbd1;
+}
+/* Center section of the screen */
+.centerContainer {
+	display: flex;
+	position: absolute;
+	top: 0%; 
+	left: 200px;
+	right: 200px;
+	/* Size and colors */
+	height: 100vh;
+	width: calc(100vw - 400px);
+	margin: 0;
+	padding: 0;
+	background-color: white;
+	overflow: auto;
+	/* flex Properties */
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: flex-start;
+}
+
+.centerContainerItem {
+	/* Size, colors and borders */	
+	margin: 20px;
+	height: 100px;
+	width: 100px;
+	background-color: #a6e5fc;
+	border-style: solid;
+	border-color: #194bd6; 
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	/* text */
+	text-align: center;
+	vertical-align: middle;
+	line-height: 90px;
+	color: #194bd6;
+	font-size: 2rem;	
+}
+.centerContainerItem:hover {
+	height: 150px;
+	width: 150px;
+	line-height: 135px;
+	display: block;
+	margin: -5px;
+	transition: height 0.5s ease;
+	transition: width 0.5s ease;
+}

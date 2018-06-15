@@ -1,0 +1,72 @@
+/*  Default container boxes classes */
+.lg {
+	width: 250px;
+	height: 100px;
+}
+
+.md {
+	width: 200px;
+	height: 90px;
+}
+
+.sm {
+	width: 100px;
+	height: 90px;
+}
+
+/* My container boxes classes */
+.tables {
+	align-self: center;
+}
+
+.box1 {	
+	background-color: #dee1e5;
+	border-style: solid;
+	border-color: #8c8e91;
+	/*=====================*/
+	-webkit-border-radius: 14px;
+	-moz-border-radius: 14px;
+	border-radius: 14px;
+	/*=====================*/		
+	display: flex;
+	justify-content: center;
+	
+}
+
+.box2 {
+	background-color: #dee1e5;
+	border-style: solid;
+	border-color: #8c8e91;
+	/*=====================*/
+	-webkit-border-radius: 14px;
+	-moz-border-radius: 14px;
+	border-radius: 14px;
+	/*=====================*/
+	display: flex;
+	justify-content: center;
+}
+
+.box3 {
+	background-color: #dee1e5;
+	border-style: solid;
+	border-color: #8c8e91;
+	/*=====================*/
+	-webkit-border-radius: 14px;
+	-moz-border-radius: 14px;
+	border-radius: 14px;
+	/*=====================*/
+	display: flex;
+	overflow: hidden;
+	
+}
+
+/* Table optimization */
+.headersTableData {	
+	text-align: right;
+	color: #797a7c;
+}
+
+.contextTableData {
+	font-size: 1.2rem;
+	color: green;
+}
