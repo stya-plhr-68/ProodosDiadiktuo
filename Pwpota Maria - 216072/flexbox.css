@@ -1,0 +1,66 @@
+body{
+	margin:0;
+	padding:0;
+}
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.flex-container > div {
+  background-color: lightgrey;
+  border:1px solid grey;
+  border-radius:8px;
+  margin: 5px;
+  text-align: center;
+  font-size: 18px;
+  
+}
+.lg{
+	width:250px;
+	height:100px;
+}
+.md{
+	width:200px;
+	height:90px;
+}
+.sm{
+	width:100px;
+	height:80px;
+}
+.flex2 {
+  display: flex;
+  width:250px;
+  height:100px;
+}
+.flex3 {
+  display: flex;
+  width:200px;
+  height:90px;
+  
+}
+.flex4 {
+    display: flex;
+    width:100px;
+	height:80px;
+	overflow:hidden;
+}
+.right{
+	text-align: right;
+}
+.left1{
+	text-align: left;
+	padding-left:7px;
+}
+
+.left2{
+	text-align: left;
+	padding-left:4px;
+}
+.left3{
+	text-align: left;
+	padding-left:0;
+}
+
+
