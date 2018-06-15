@@ -1,0 +1,52 @@
+body {
+	margin: 0;
+}
+
+
+.boxes{
+	border-radius:20px;
+	background-color: lightgray;
+	box-sizing: border-box;
+	border: 2px;
+	border-style: solid;
+	overflow: hidden;
+    border-color: darkgray;
+	padding: 11px;
+	margin: 5px;
+	text-align: center;
+	
+}
+
+.diataksi{
+	display: inline-block;
+}
+
+.labels {
+	color: darkgray;
+	text-align: right;
+}
+
+.middle{
+	text-align: center;
+	color: black;
+}
+
+.inf{
+	color: green;
+	text-align: left;
+}
+
+.lg{
+	width: 250px;
+	height: 100px;
+}
+
+.md{
+	width: 200px;
+	height: 90px;
+}
+
+.sm{
+	width: 100px;
+	height: 80px;
+}
