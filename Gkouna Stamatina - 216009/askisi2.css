@@ -1,0 +1,42 @@
+.body{
+     margin:0px;
+	 padding:0px;
+}
+
+.plagia{
+     background-color:grey;
+	 height:100vh;
+         flex: 0 0 150px; 
+
+}
+#ola{
+	display:flex;
+	flex-direction:row;
+}
+.box{
+         display:flex;
+	 flex-direction:row;
+	 flex-wrap:wrap;
+	 align-items:flex-start;
+	 justify-content:center;
+	
+}
+
+
+.box>div{
+     text-align:center;
+	 font-size:2.5em;
+	 color:blue;
+	 background-color:lightblue;
+	 border: 1px solid blue;
+	 border-radius: 10px;
+	 height:50px;
+	 width:50px;
+	 padding:20px;
+	 margin:20px;
+}
+.box>div:hover{
+	 height:100px;
+	 width:100px;
+	 
+}

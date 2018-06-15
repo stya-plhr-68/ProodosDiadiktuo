@@ -1,0 +1,56 @@
+body{
+     margin:0;
+	 padding:0;
+}
+
+.lg{
+	width:250px;
+	height:100px;
+}
+
+.md{
+	width:200px;
+	height:90px;
+}
+
+.ls{
+	width:100px;
+	height:80px;
+}
+
+.box{
+	display:flex;
+	flex-direction:row;
+	align-items:center;	
+	background-color:lightgrey;
+	border: 1px solid grey;
+	border-radius: 10px;
+	margin:10px;
+	box-sizing: border-box;
+	overflow-y:hidden;
+	overflow-x:hidden;
+	
+	
+}
+
+.stoixeia{
+	color:#b3b3b3;
+	font-size:1em;
+	text-align:right;
+	flex:1 1 100px;
+	
+}
+
+.voules{
+	color:black;
+	text-align:center;
+	margin:5px;
+	
+}
+
+.onoma{
+	color:green;
+	font-size:1em;
+	flex:6 1 100px;
+	
+}
