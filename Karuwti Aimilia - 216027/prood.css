@@ -1,0 +1,76 @@
+.card1{
+	
+	border: 1px solid darkgray;
+	border-radius: 10px;
+	display: block;
+	margin: 10px 3px;
+	padding: 10px;
+	box-sizing: border-box;
+	overflow-y: hidden;
+	text-align:center;
+	background-color: lightgray;
+}
+
+.card2{
+	
+	border: 1px solid darkgray;
+	border-radius: 10px;
+	display: block;
+	margin: 7px 2px;
+	padding: 8px;
+	box-sizing: border-box;
+	overflow-y: hidden;
+	text-align:center;
+	background-color: lightgray;
+}
+
+.card3{
+	
+	border: 1px solid darkgray;
+	border-radius: 10px;
+	display: block;
+	margin: 10px 2px;
+	padding: 0px;
+	box-sizing: border-box;
+	background-color: lightgray;
+	text-align:center;
+	overflow: hidden;
+}
+
+.lg{
+	width: 250px;
+	height: 100px;
+}
+
+.md{
+	width: 200px;
+	height: 90px;
+}
+
+.sm{
+	width: 100px;
+	height: 80px;
+}
+
+.value {
+	color: green;
+	font-size: large;
+}
+
+.label {
+	text-align: right;
+	color: gray;
+	font-size: medium;
+}
+
+table {
+    
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    
+    text-align: left;
+    padding: 2px;
+}
