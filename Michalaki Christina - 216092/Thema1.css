@@ -1,0 +1,50 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+
+.lg{
+	width:250px;
+	height:100px;
+}
+
+.md{
+	width:200px;
+	height:90px;
+}
+
+.ln{
+	width:100px;
+	height:80px;
+}
+
+.card {
+	display:flex;
+	justify-content: space-evenly;
+	border: 10px black;
+	padding: 10px;
+	background-color: lightgray;
+	text-align:center;
+	border-radius: 15px;
+	margin:5px;
+	
+}
+
+.label {
+	color: gray;
+	flex-grow:1;
+	
+}
+
+.teleies {
+	color:blck;
+	flex-grow:1;
+	
+	
+}
+.value {
+	color: green;
+	flex-grow:1;
+}
+
