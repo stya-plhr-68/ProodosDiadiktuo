@@ -1,0 +1,60 @@
+body {
+	margin: 0;
+}
+
+.flexcontainer {
+	display: flex;
+	flex-flow: row;
+	height: 100vh;
+}
+
+.flexSide {
+	flex: 2 1 auto;
+	overflow-y: auto;
+	text-align: center;
+}
+
+.leftbox {
+	flex-basis: 200px;
+	background-color: lightgray;
+}
+
+.rightbox {
+	right: 0px;
+	flex-basis: 200px;
+	background-color: lightgray;
+
+}
+
+.middlebox{
+	flex: 1000 0 0;
+	background-color: white;
+	flex-basis: calc(100vw-400px);
+	text-align: center;
+	overflow: auto;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.blueboxes{
+	background-color: lightblue;
+	border: 1px solid darkblue;
+	margin: 20px;
+	border-radius: 10px;
+	text-align:center;
+	padding: 25px;
+	box-sizing: border-box;
+	display: inline-block;
+	color: darkblue;
+	height: 130px;
+	width: 130px;
+}
+
+div.zoom:hover, div.zoom:active 
+{
+	height: 150px;
+	width: 150px;
+	font-size: 130%;
+	
+}
+
